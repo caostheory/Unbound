@@ -64,8 +64,8 @@
 
 - **Check Unbound status and statistics**  
   ```bash
-  sudo unbound-control status
-  sudo unbound-control stats_noreset
+  doas unbound-control status
+  doas unbound-control stats_noreset
   ```
 
 ---
@@ -85,7 +85,7 @@
 - **You can schedule a monthly update using `cron`**:
 
   ```bash
-  sudo crontab -e
+  doas crontab -e
 
   # Monthly update of root.key
   @monthly /usr/local/sbin/unbound-anchor -a /usr/local/etc/unbound/root.key > /dev/null 2>&1
