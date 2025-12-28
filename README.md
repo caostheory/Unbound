@@ -1,7 +1,3 @@
-# Unbound
-
-A personal **Unbound DNS** configuration repository, optimized for **root auth-zone** usage. Ready for integration with **AdGuard Home** or **Pi-hole**, with full DNSSEC validation and local recursive resolution.
-
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/caostheory/Unbound) ![License](https://img.shields.io/github/license/caostheory/Unbound) ![Last Commit](https://img.shields.io/github/last-commit/caostheory/Unbound)
 
 ---
