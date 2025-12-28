@@ -11,7 +11,7 @@ A personal **Unbound DNS** configuration repository, optimized for **root auth-z
 1. **Download the Unbound configuration file**  
    ```bash
    doas fetch -o /usr/local/etc/unbound/unbound.conf \
-   https://raw.githubusercontent.com/caostheory/DNSResolver-AuthZone/refs/heads/main/unbound.conf
+   https://raw.githubusercontent.com/caostheory/Unbound/refs/heads/main/unbound.conf
    ```
 
 2. **Generate the root key for DNSSEC validation**  
