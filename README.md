@@ -31,7 +31,11 @@
 
 5. **Generate server and control keys**  
    ```bash
-   doas unbound-control-setup
+   # Create a folder for keys
+   doas mkdir -p /usr/local/etc/unbound/keys/
+
+   # Install keys in the right directory
+   doas unbound-control-setup -d /usr/local/etc/unbound/keys/
    ```
 
 6. **Set correct permissions**  
