@@ -41,7 +41,7 @@
 6. **Set correct permissions**  
    ```bash
    doas chown -R unbound:unbound /usr/local/etc/unbound/
-   doas chmod 600 /usr/local/etc/unbound/*.key
+   doas chmod 600 /usr/local/etc/unbound/keys/*.key
    ```
 
 ---
