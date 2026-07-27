@@ -58,7 +58,7 @@
   dig @127.0.0.1 -p 5335 +dnssec www.internic.net
   ```
 
-  **If validation is functioning properly, you’ll see the **`ad`** flag in the response header**
+- **If validation is functioning properly, you’ll see the **`ad`** flag in the response header**
     ```bash
     ;; flags: qr rd ra ad;
     ```
