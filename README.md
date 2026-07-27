@@ -59,7 +59,6 @@
   ```
 
   **How to interpret results:**
-  - If DNSSEC is supported, the output includes **RRSIG** records.
   - If validation is functioning properly, you’ll see the **`ad`** flag in the response header.
     ```bash
     ;; flags: qr rd ra ad;
